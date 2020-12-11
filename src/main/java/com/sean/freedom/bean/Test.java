@@ -8,4 +8,10 @@ public class Test {
             System.out.println("#="+i);
         }
     }
+
+
+    static String getName(String str){
+        int len = str.length();
+        return str + ".length=" + len;
+    }
 }
