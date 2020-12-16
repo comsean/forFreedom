@@ -7,9 +7,9 @@ public class Test {
         for (int i : ints) {
             System.out.println("#="+i);
         }
+
+
     }
-
-
     static String getName(String str){
         int len = str.length();
         return str + ".length=" + len;
